@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import com.example.demo.banking.BankingClient;
 import com.example.demo.banking.BankingTransferService;
 import com.example.demo.payment.PaymentService;
 import com.example.demo.transfer.TransferService;

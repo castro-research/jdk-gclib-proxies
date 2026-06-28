@@ -2,7 +2,7 @@ package com.example.demo.banking;
 
 import com.example.demo.account.AccountRepository;
 
-public class BankingTransferServiceImpl implements BankingTransferService, BankingService {
+public class BankingTransferServiceImpl implements BankingTransferService {
     public final AccountRepository accountRepository;
 
     public BankingTransferServiceImpl(AccountRepository accountRepository) {

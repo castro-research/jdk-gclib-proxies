@@ -35,9 +35,9 @@ public class AppConfig {
 //        return new BankingTransferServiceImpl(repo);
 //    }
 
-    // ou 2, retornar o BankingService
+    // ou 2, retornar o BankingTransferService
     @Bean
-    public BankingService transferService(AccountRepository repo) {
+    public BankingTransferService transferService(AccountRepository repo) {
         return new BankingTransferServiceImpl(repo);
     }
 
